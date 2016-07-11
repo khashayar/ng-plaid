@@ -1,0 +1,24 @@
+{
+  "name": "ng-plaid",
+  "version": "1.0.0",
+  "description": "Plaid Link wrapper for AngularJS",
+  "main": "src/ng-plaid.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/khashayar/ng-plaid.git"
+  },
+  "keywords": [
+    "angular",
+    "plaid",
+    "plaid-link"
+  ],
+  "author": "Khashayar Hajian <me@khashayar.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/khashayar/ng-plaid/issues"
+  },
+  "homepage": "https://github.com/khashayar/ng-plaid"
+}
