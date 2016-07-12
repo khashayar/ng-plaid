@@ -10,11 +10,11 @@
 
 **Bower**
 
-`bower install angular-plaid --save`
+`bower install ng-plaid --save`
 
 **NPM**
 
-`npm install angular-plaid --save`
+`npm install ng-plaid --save`
 
 ---
 
