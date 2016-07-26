@@ -1,6 +1,6 @@
 {
   "name": "ng-plaid",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Plaid Link wrapper for AngularJS",
   "main": "src/ng-plaid.js",
   "scripts": {
