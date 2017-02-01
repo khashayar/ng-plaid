@@ -27,7 +27,7 @@ Checkout the [official documentation](https://github.com/plaid/link) for additio
 
 Make sure you have the plaid link script loaded on your page:
 
-```
+```html
 <body>
 ...
 
@@ -40,7 +40,7 @@ Make sure you have the plaid link script loaded on your page:
 
 Inject `ng-plaid` into your app module:
 
-```
+```js
 angular.module('MyApp', [
     ...
     'ng-plaid',
@@ -55,7 +55,7 @@ You can configure the handler 2 ways, by using the `plaidProvider` and calling `
 directly on the `.create` method (see step 4). `init` accepts a single object parameter.
 [Available configuration parameters](https://github.com/plaid/link#custom-integration)
 
-```
+```js
 ...
 .config([
     'plaidProvider',
@@ -77,7 +77,7 @@ directly on the `.create` method (see step 4). `init` accepts a single object pa
 The first parameter accepts a configuration object just like `init` in `plaidProvider`. In addition you can pass the
 `onSuccess` and `onExit` callback functions as the second and third parameters.
 
-```
+```js
 .controller('ctrl', ['plaid'
 
     function(plaid) {
@@ -110,7 +110,7 @@ The first parameter accepts a configuration object just like `init` in `plaidPro
 You can pass an optional bankType parameter to open directly to a specific bank.
 https://plaid.com/docs/#institutions contains the valid `bankType`'s you can pass.
 
-```
+```js
 plaid.open(bankType);   // bankType is optional
 ```
 
